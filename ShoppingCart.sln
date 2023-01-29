@@ -5,6 +5,12 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart", "ShoppingCart\ShoppingCart.csproj", "{5FFA2DFD-6E08-4761-A0D4-4108239A8B3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Models", "ShoppingCart.Models\ShoppingCart.Models.csproj", "{649D1DCB-1A86-46D4-8BA7-5DE6F9FB146A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.DataAccess", "ShoppingCart.DataAccess\ShoppingCart.DataAccess.csproj", "{0AB373FE-80D0-4325-B0AA-D8926821A93D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Utility", "ShoppingCart.Utility\ShoppingCart.Utility.csproj", "{65B09B71-8FB6-4110-BD7E-EC5EA105D55A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{5FFA2DFD-6E08-4761-A0D4-4108239A8B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FFA2DFD-6E08-4761-A0D4-4108239A8B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FFA2DFD-6E08-4761-A0D4-4108239A8B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{649D1DCB-1A86-46D4-8BA7-5DE6F9FB146A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649D1DCB-1A86-46D4-8BA7-5DE6F9FB146A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649D1DCB-1A86-46D4-8BA7-5DE6F9FB146A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649D1DCB-1A86-46D4-8BA7-5DE6F9FB146A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB373FE-80D0-4325-B0AA-D8926821A93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB373FE-80D0-4325-B0AA-D8926821A93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB373FE-80D0-4325-B0AA-D8926821A93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB373FE-80D0-4325-B0AA-D8926821A93D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65B09B71-8FB6-4110-BD7E-EC5EA105D55A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B09B71-8FB6-4110-BD7E-EC5EA105D55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B09B71-8FB6-4110-BD7E-EC5EA105D55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B09B71-8FB6-4110-BD7E-EC5EA105D55A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
